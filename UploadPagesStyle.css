@@ -1,0 +1,28 @@
+
+body {
+    height: 100vh;
+    margin: 0;
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+}
+
+
+/* form {
+    background-color: aqua;
+    width: 50%;
+} */
+
+form {
+    background-image: radial-gradient(circle, rgb(242, 254, 242) 30%, rgb(255, 255, 255) 90%);
+    border-radius: 13px; 
+    position: relative;
+    margin: 0 auto;
+    width: 50%;
+    min-height: 20%;
+    border-style: dashed;
+    padding: 10%;
+
+}
+
+.formMargin {
+    margin-bottom: 50px;
+} 

@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* background-image: radial-gradient(circle, rgb(247, 247, 247) 30%, rgb(172, 255, 181) 90%); */
+}
+
+.music-container {
+    background-image: radial-gradient(circle, rgb(242, 254, 242) 30%, rgb(255, 255, 255) 90%);
+    border-radius: 13px; 
+    position: relative;
+    margin: 0 auto;
+    width: 30vw;
+    min-height: 20vh;
+    border-style: dashed;
+}
+
+img {
+    width: 60%;
+    height: 60%;
+    object-fit: cover;
+    margin-left: 20%;
+    display: inline-block;
+} 
+
+.music-info{
+  margin-left:18%;
+  position: relative;
+}
+
+h4 {
+    text-align: center;
+    margin-top: 10% ; 
+}
+
+h1 {
+    text-align: center;
+}
+
+.description{
+    background-color: rgb(255, 255, 255);
+    width: 60%;
+    height: 200px;
+    margin-left: 20%;
+    overflow: auto;
+}
+
+.description p {
+    width: 80%;
+    text-wrap: wrap;
+    overflow-wrap: break-word;
+    margin-left: 10%; 
+    /* text-decoration: underline dotted; */
+}
+
+#audio {
+    max-width: 100%;
+    /* position: absolute; */
+    margin: 0 auto;
+}
